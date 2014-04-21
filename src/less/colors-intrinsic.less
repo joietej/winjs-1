@@ -271,7 +271,7 @@
         color: transparent;
     }
 
-    button, input[type=button], input[type=reset] {
+    button:not(.win-command):not(.win-navigation-backbutton), input[type=button], input[type=reset] {
         .mixin(dark) {
             &:enabled:hover:active {
                 background-color: rgb(255, 255, 255);
